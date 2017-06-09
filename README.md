@@ -1,6 +1,6 @@
 
 
-## Custom debug Challenge
+## Procedural Macros & Custom Derive Challenge
 
 **Objectives**
 - Implement the `CustomDebug` derive to output the fields of a struct in a custom way.
