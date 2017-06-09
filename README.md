@@ -7,7 +7,7 @@
     - The `CustomDebug` derive will implement the `Debug` trait for the struct.
     - Use `syn::DeriveInput` to get the fields of the struct.
     - Iterate over each field and output the field in a nice way.
-- Extra: Use custom attributes to affect your `CustomDebug` output/
+- Extra: Use custom attributes to affect your `CustomDebug` output.
     - Only output fields that are tagged with the `#[debug]` attribute.
 
 **Helpful Documentation**
