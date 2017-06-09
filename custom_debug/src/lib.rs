@@ -28,6 +28,13 @@ fn expand_debug(input: &syn::DeriveInput) -> Result<Tokens, String> {
         impl ::std::fmt::Debug for #name {
             fn fmt(&self, formatter: &mut ::std::fmt::Formatter) -> ::std::fmt::Result {
                 write!(formatter, stringify!(#name))
+
+                // TODO1: Iterate through the fields of input,
+                // and output them in a nice, custom way.
+
+                // TODO2: Examine the attributes of each field,
+                // and only output fields marked with the "debug" attribute.
+                
             }
         }
     };
